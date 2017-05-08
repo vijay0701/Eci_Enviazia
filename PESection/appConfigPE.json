@@ -1,0 +1,33 @@
+{
+  "browser": {
+    "navigator": "chrome",
+    "urlBase": "http://personalizedemailstest.cloudapp.net",
+    "urlPortal": "http://personalizedemailstest.cloudapp.net"
+  },
+  "confDriver": {
+    "chrome": "\\BrowserDriver\\chromedriver.exe",
+    "ie": "\\lib\\BrowserDriver\\IEDriverServer.exe",
+    "implicitWait": "60",
+    "explicitWait": "60",
+    "webDriverWait_Sleep": "50"
+  },
+  "ExternalFile": {
+    "excelPath": "\\src\\test\\resources",
+    "dataProviderData": "\\SearchDataProvider.xls"
+  },
+  "DataBaseInformation": {
+    "dbConnectionQA": "jdbc:sqlserver://yjy0hl57ag.database.windows.net:1433;database=RecommendationDB_QA;user=ECIAdministrator@yjy0hl57ag;password=Control123;loginTimeout=30",
+    "dbConnectionPortalUS": "jdbc:sqlserver://snwdtmjnbu.database.windows.net:1433;database=ECIPXTestSQL;user=TestDb@snwdtmjnbu;password=pa$$w0rd;encrypt=true;hostNameInCertificate=*.database.windows.net;loginTimeout=30"
+  },
+  "serviceAccountInformation": {
+    "email": "829337921227-compute@developer.gserviceaccount.com",
+    "certificatePath": "\\src\\test\\resources",
+    "certificate": "\\client_secrets.p12",
+    "applicationName": "Automation"
+  },
+  "testCase": {
+    "testGroups": "Negative,portalDataValidation",
+    "outPath": "target/custom-test-reports",
+    "log":"true"
+  }
+}

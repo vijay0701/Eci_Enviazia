@@ -1,0 +1,2 @@
+CampaignTitle,SenderEmail,SenderName,Subject,ByPassEmail,TriggerName,LayoutName,WaitDays
+Test Campaign,Eci@ecihosted.org,Dealer,For Automation,vijay.mishra@eci.com,Abandoned Cart,Test1,5
